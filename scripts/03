@@ -1,0 +1,7 @@
+#!/bin/sh
+
+printf '\n%s\n\n' 'Plese entre your chosen password'
+read -r a
+printf '\n%s\n\n' 'Plese entre your chosen username'
+read -r b
+useradd -m -p $a -s /bin/bash $b

@@ -1,0 +1,1 @@
+ifconfig en0 | sed -n 5p | awk '{print $2}'

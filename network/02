@@ -1,0 +1,2 @@
+ifconfig | grep "broadcast" | awk '{ print $NF }'
+ping -c 10.12.255.255 | arp -a | awk '{print $2}' | tr -d '()'

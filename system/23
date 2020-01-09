@@ -1,0 +1,3 @@
+first of all to know which user that im using rightnow i use 'whoami' the output should be the current user that u using ,
+if u want to switch to another user u can use this command 'su - nameoftheuser'
+on the ssh theuserchosen@ipaddress of the server.

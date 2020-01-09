@@ -1,0 +1,1 @@
+the last device betwen local network and the outside world in this case it the nat (firewalls) and the ip is 10.21.1.1 when u use this ip u get the login of pfsense firewalls router . the last  one is an open source firewall/router computer software distribution based on FreeBSD.

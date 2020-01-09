@@ -1,0 +1,3 @@
+#!/bin/bash
+# My First Script
+userdel $1

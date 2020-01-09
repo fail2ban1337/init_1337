@@ -1,0 +1,4 @@
+first we edit the "/etc/hostname" file and update hostname and finally we edit
+ "/etc/hosts" file and update the lines that reads your old-host-name.
+  and we type the follwing command to apply new changes without rebooting the server:
+  invoke-rc.d hostname.sh start 

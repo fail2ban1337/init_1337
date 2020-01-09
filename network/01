@@ -1,0 +1,1 @@
+netstat -i | cut -d ' ' -f1 | sed '1d' | uniq
